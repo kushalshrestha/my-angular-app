@@ -1,0 +1,6 @@
+<div *ngFor="let hero of heroes">
+  <p>{{ hero.id }}</p>
+  <p>{{ hero.name }}</p>
+  <button type="button" (click)="selectHero(hero)">{{ 'Select ' + hero.name }}</button>
+</div>
+
